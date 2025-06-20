@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APS</title>
+    <style>
+        body {
+            width: 70%;
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header h1 {
+            background-color: black;
+            border-bottom: solid 5px #c3d6b8;
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 10px;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 5%;
+            margin-top: 20px;
+        }
+
+        nav {
+            width: 20%;
+        }
+
+        nav ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        nav ul li {
+            padding: 6px;
+            border-top: solid thin;
+            font-weight: bold;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        nav ul li:nth-child(5) {
+            border-bottom: solid thin;
+        }
+
+        main {
+            width: 75%;
+            text-align: justify;
+        }
+
+        main h1 {
+            border-bottom: solid;
+            margin-bottom: 0;
+        }
+
+        main h4 {
+            margin-top: 0;
+            text-align: right;
+        }
+
+        aside {
+            width: 100%;
+            float: inline-start;
+        }
+
+        aside h3 {
+            margin-bottom: 0;
+        }
+
+        article div {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 15px;
+        }
+
+        article h3 {
+            color: #2c3e50;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+
+        article ul {
+            padding-left: 20px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            clear: both;
+            text-align: center;
+            background-color: black;
+            border-top: solid 5px #c3d6b8;
+            color: #fff;
+            padding: 1px;
+            font-weight: bold;
+        }
+
+        a {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>APS</h1>
+    </header>
+
+    <div id="container">
+        <nav>
+            <ul>
+                <li><a href="#CAP 01">CAP 01</a></li>
+                <li><a href="#CAP 02">CAP 02</a></li>
+                <li><a href="#CAP 03">CAP 03</a></li>
+                <li><a href="#CAP 05">CAP 05</a></li>
+                <li><a href="#JS">Introdução ao JavaScript</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>HTML e CSS</h1>
+            <h4>Daniel Ulson - 3º Período - Turma A</h4>
+            <p>Listas de atividades desenvolvidas para a disciplina de Desenvolvimento Front-end</p>
+        </main>
+    </div>
+
+    <aside>
+        <article>
+            <h2 id="CAP 01">CAP 01</h2>
+
+            <div>
+                <h3>Aula 1</h3>
+                <p>Apresentação e ambientação com HTML.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Criação de listas, títulos e parágrafos</li>
+                    <li>Formatação de textos com negrito e itálico</li>
+                </ul>
+                <p>Link: <a href="CAP01/aula1.html">Aula 1</a></p>
+            </div>
+
+            <div>
+                <h3>Revisão aula 1</h3>
+                <p>Criação de uma receita de omelete para revisar os conceitos da aula anterior.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Estruturação de conteúdo com listas</li>
+                    <li>Organização visual com títulos</li>
+                </ul>
+                <p>Link: <a href="CAP01/revisão_aula1.html">Revisão aula 1</a></p>
+            </div>
+        </article>
+
+        <article>
+            <h2 id="CAP 02">CAP 02</h2>
+
+            <div>
+                <h3>Aula 2</h3>
+                <p>Apresentação de comandos para criação de tabelas e inserção de imagens.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Criação de tabelas com colspan e rowspan</li>
+                    <li>Inserção e organização de imagens em páginas</li>
+                </ul>
+                <p>Link: <a href="cap02/aula2.html">Aula 02</a></p>
+            </div>
+
+            <div>
+                <h3>Produtos - Meu Amigo Cão</h3>
+                <p>Criação de tabela com marcas de ração, separadas por porte de animal.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Estruturação e formatação de tabelas</li>
+                    <li>Adição de imagens dentro de células</li>
+                </ul>
+                <p>Link: <a href="cap02/Exercicio_aula2.html">Produtos - Meu Amigo Cão</a></p>
+            </div>
+
+            <div>
+                <h3>Raças para Crianças</h3>
+                <p>Desenvolvimento de uma página sobre raças de cães indicadas para crianças.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Criação de links para outras páginas (como Wikipedia)</li>
+                    <li>Navegação entre seções e retorno ao topo</li>
+                </ul>
+                <p>Link: <a href="cap02/Exercicio2_aula2.html">Raças para Crianças</a></p>
+            </div>
+
+            <div>
+                <h3>Formulário de Banho e Tosa</h3>
+                <p>Criação de um formulário para simular agendamento de serviços para pets.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Coleta de dados do usuário com formulários</li>
+                    <li>Organização de campos e estrutura de inputs</li>
+                </ul>
+                <p>Link: <a href="cap02/formulario.html">Formulário de Banho e Tosa</a></p>
+            </div>
+
+            <div>
+                <h3>Menu de Exercícios</h3>
+                <p>Criação de uma página com links para exercícios desenvolvidos.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Vincular páginas HTML entre si</li>
+                    <li>Navegação entre arquivos locais</li>
+                </ul>
+                <p>Link: <a href="cap02/Menu Exercícios/index.html">Menu de Exercícios</a></p>
+            </div>
+        </article>
+
+        <article>
+            <h2 id="CAP 03">CAP 03</h2>
+
+            <div>
+                <h3>Ex 1 - Títulos e Cabeçalhos</h3>
+                <p>Exploração dos diferentes níveis de cabeçalhos e parágrafos.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Uso de headings (h1 até h6)</li>
+                    <li>Primeiro contato com o CSS</li>
+                </ul>
+                <p>Link: <a href="CAP03/ex01/ex1.html">Ex 1 - Títulos e Cabeçalhos</a></p>
+            </div>
+
+            <div>
+                <h3>Ex 2 - Estudando HTML</h3>
+                <p>Organização de parágrafos e manipulação de imagens.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Aplicação de bordas e estilos com CSS</li>
+                    <li>Alinhamento e disposição de imagens</li>
+                </ul>
+                <p>Link: <a href="CAP03/ex02/ex02.html">Ex 2 - Estudando HTML</a></p>
+            </div>
+
+            <div>
+                <h3>Ex 3 - Trabalhando com Links</h3>
+                <p>Personalização e manipulação de links em uma página web.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Links personalizados com CSS</li>
+                    <li>Navegação entre páginas e âncoras</li>
+                </ul>
+                <p>Link: <a href="CAP03/ex03/links1.html">Ex 3 - Trabalhando com Links</a></p>
+            </div>
+
+            <div>
+                <h3>Ex 4 - Receita de Torta de Limão</h3>
+                <p>Criação de uma receita estilizada com CSS e imagens.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Listas personalizadas com ícones</li>
+                    <li>Inserção de imagens no layout</li>
+                </ul>
+                <p>Link: <a href="CAP03/ex04/torta-limao.html">Ex 4 - Receita de Torta de Limão</a></p>
+            </div>
+        </article>
+
+        <article>
+            <h2 id="CAP 05">CAP 05</h2>
+
+            <div>
+                <h3>Ex 1 - Formulário</h3>
+                <p>Criação de formulário para cadastro de usuários.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Customização de campos de entrada com CSS</li>
+                    <li>Estruturação de formulários e labels</li>
+                </ul>
+                <p>Link: <a href="CAP05/ex01/ex01.html">Ex 1 - Formulário</a></p>
+            </div>
+
+            <div>
+                <h3>Ex 2 - Tabela</h3>
+                <p>Apresentação de modelos de equipamentos com seus atributos em uma tabela.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Estrutura e estilização de tabelas</li>
+                    <li>Organização de conteúdo em colunas</li>
+                </ul>
+                <p>Link: <a href="CAP05/ex02/tabela.html">Ex 2 - Tabela</a></p>
+            </div>
+
+            <div>
+                <h3>Ex 3 - Portal da Floresta</h3>
+                <p>Criação de uma página com estrutura e estilo aprimorados usando CSS.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Uso do CSS Float</li>
+                    <li>Design responsivo com largura e estrutura adaptáveis</li>
+                </ul>
+                <p>Link: <a href="CAP05/ex3/correcao.html">Ex 3 - Portal da Floresta</a></p>
+            </div>
+
+            <div>
+                <h3>Float</h3>
+                <p>Desenvolvimento de arquivos sequenciais com uso de float como técnica principal.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Distribuição de elementos lado a lado com float</li>
+                </ul>
+                <p>Link: <a href="CAP05/float/float-5.html">Float</a></p>
+            </div>
+
+            <div>
+                <h3>Design Responsivo</h3>
+                <p>Desenvolvimento de páginas com comportamento responsivo para diferentes larguras de tela.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Uso de porcentagem para tamanhos e margens</li>
+                    <li>Adaptação de layout conforme o tamanho da tela</li>
+                </ul>
+                <p>Link: <a href="CAP05/design-responsivo/index.html">Design Responsivo</a></p>
+            </div>
+        </article>
+
+        <article>
+            <h2 id="JS">Introdução ao JavaScript</h2>
+
+            <div>
+                <h3>Ex 1 - js-initial</h3>
+                <p>Introdução básica aos fundamentos de JavaScript</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Manipulação da estrutura do HTML usando o JavaScript</li>
+                    <li>Manipulação dos dados com JavaScript</li>
+                </ul>
+                <p>Link: <a href="js-inital/index.html">Ex 1 - js-initial</a></p>
+            </div>
+
+            <div>
+                <h3>Ex 2 - js-initial-front-end</h3>
+                <p>Introdução básica a mais alguns fundamentos do JavaScrip.</p>
+                <p><strong>Foi aprendido:</strong></p>
+                <ul>
+                    <li>Filtragem dos dados presentes na página usando JavaScrip.</li>
+                    <li>Validação de formulário</li>
+                    <li>Remover dados da página</li>
+                </ul>
+                <p>Link: <a href="js-initial-front-end/index.html">Ex 2 - js-initial-front-end</a></p>
+            </div>
+        </article>
+    </aside>
+
+    <footer>
+        <p>Desenvolvimento Front-end</p>
+    </footer>
+
+</body>
+
+</html>
